@@ -94,7 +94,7 @@ L<Mojolicious::Plugin::ExceptionSentry> supports the following options.
 =head2 sentry_dsn 
 
     plugin 'ExceptionSentry' => {
-        sentry_dsn => 'DNS'
+        sentry_dsn => 'DSN'
     };
     
 The DSN for your sentry service. Get this from the client configuration page for your project.
@@ -102,7 +102,7 @@ The DSN for your sentry service. Get this from the client configuration page for
 =head2 timeout  
 
     plugin 'ExceptionSentry' => {
-        sentry_dsn => 'DNS',
+        sentry_dsn => 'DSN',
         timeout    => 5
     };
 
