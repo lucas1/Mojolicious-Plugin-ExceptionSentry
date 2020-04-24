@@ -2,7 +2,7 @@ package Mojolicious::Plugin::ExceptionSentry;
 use Mojo::Base 'Mojolicious::Plugin';
 use Sentry::Raven;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 has 'sentry_raven';
 
