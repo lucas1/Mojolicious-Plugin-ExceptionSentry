@@ -26,7 +26,7 @@ This module auto-send all exceptions from [Mojolicious](https://metacpan.org/pod
 ## sentry_dsn 
 
     plugin 'ExceptionSentry' => {
-        sentry_dsn => 'DNS'
+        sentry_dsn => 'DSN'
     };
     
 The DSN for your sentry service. Get this from the client configuration page for your project.
@@ -34,7 +34,7 @@ The DSN for your sentry service. Get this from the client configuration page for
 ## timeout  
 
     plugin 'ExceptionSentry' => {
-        sentry_dsn => 'DNS',
+        sentry_dsn => 'DSN',
         timeout    => 5
     };
 
